@@ -21,4 +21,9 @@ public class Banco {
 		this.contas = contas;
 	}
 
+	public void imprimirOpcoes() {
+		System.out.println(
+				"0 - Sair\n1 - Ver saldo na conta corrente\n2 - Ver saldo na conta poupança\n3 - Pagar via Pix\n4 - Depositar na conta corrente\n5 - Guardar na poupança\n6 - Retirar da poupança");
+	}
+
 }
